@@ -173,8 +173,8 @@ campaignTrail_temp.candidate_json = [
           "first_name": "Tim",
           "last_name": "Scott",
           "election": 9,
-          "party": "South Carolina",
-          "state": "Indiana",
+          "party": "Republican",
+          "state": "South Carolina",
           "priority": 10,
           "description": "'",
           "color_hex": "#FF0000",
@@ -845,10 +845,10 @@ input {
   
   
     const song1 = new Song(
-      "Courtesy Of The Red, White, And Blue",
-      "Toby Keith",
-      "https://i.imgur.com/MqHaQec.jpeg",
-      "https://files.catbox.moe/5co2hn.mp3"
+      "The Wanderer",
+      "U2, Johnny Cash",
+      "https://i.imgur.com/VrbiFBZ.jpeg",
+      "https://audio.jukehost.co.uk/k6FcZafOleIhU8IR6hpxUcrrXipWhmme"
     );
     
     const song2 = new Song(
@@ -873,10 +873,10 @@ input {
     );
   
     const song5 = new Song(
-      "The Wanderer",
-      "U2, Johnny Cash",
-      "https://i.imgur.com/VrbiFBZ.jpeg",
-      "https://audio.jukehost.co.uk/k6FcZafOleIhU8IR6hpxUcrrXipWhmme"
+      "America Has A Problem",
+      "Beyoncé (Ft. Kendrick Lamar)",
+      "https://upload.wikimedia.org/wikipedia/en/f/f1/Beyonc%C3%A9_-_America_Has_a_Problem.png",
+      "https://files.catbox.moe/yunbs8.mp3"
     );
   
     const song6 = new Song(
