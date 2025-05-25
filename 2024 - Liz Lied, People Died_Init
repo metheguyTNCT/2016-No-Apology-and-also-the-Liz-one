@@ -170,8 +170,8 @@ campaignTrail_temp.candidate_json = [
       "model": "campaign_trail.candidate",
       "pk": 85,
       "fields": {
-          "first_name": "Tim",
-          "last_name": "Scott",
+          "first_name": "Nikki",
+          "last_name": "Haley",
           "election": 9,
           "party": "Republican",
           "state": "South Carolina",
@@ -476,274 +476,12 @@ input {
   addDynamicCSS();
     
     tooltipList = [
-      // Q1
-      {searchString: "Hollywood nobodies", explanationText: "<img src=https://i.imgur.com/BcP7HEt.gif> Extremely Overrated!"},
-      {searchString: "President Obama", explanationText: "<img src=https://i.imgur.com/7hGvSYN.gif><br> The Founder of ISIS"},
-      {searchString: "Steve—such a smart guy", explanationText: "<img src=https://i.imgur.com/WzLU5gg.gif><br> Tough and Smart"},
-      {searchString: "Reince—such a superstar", explanationText: "<img src=https://i.imgur.com/pWZys9f.gif><br> Great Unification"},
-      {searchString: "Reagan moment", explanationText: "<img src=https://i.imgur.com/g1MsPpT.gif><br> A Great President"},
-      {searchString: "Reagan", explanationText: "<img src=https://i.imgur.com/g1MsPpT.gif><br> A Great President"},
-      {searchString: "Steele report", explanationText: "<img src=https://i.imgur.com/ztHIEJI.gif><br> FAKE NEWS"},
-      {searchString: "George W. Bush", explanationText: "<img src=https://i.imgur.com/3Z14E6D.gif><br> 𝚆"},
-      // Q2
-      {searchString: "ISIS", explanationText: "<img src=https://i.imgur.com/8ALOPIa.gif><br> Bad Guys"},
-      {searchString: "Radical Islamic Terrorism", explanationText: "<img src=https://i.imgur.com/8ALOPIa.gif><br> Bad Guys"},
-      {searchString: "Sisi", explanationText: "<img src=https://i.imgur.com/7sbuboK.gif><br> Doing a Great Job"},
-      {searchString: "CIA people", explanationText: "<img src=https://i.imgur.com/rWiGj5f.gif><br> Very Special Wall"},
-      {searchString: "Fallwell", explanationText: "<img src=https://i.imgur.com/TwRd3rq.gif><br> Jesus Freak"},
-      // Q3
-      {searchString: "Mad Dog", explanationText: "<img src=https://i.imgur.com/pfIrQl6.gif><br> Central Casting"},
-      {searchString: "Mad-Dog", explanationText: "<img src=https://i.imgur.com/pfIrQl6.gif><br> Central Casting"},
-      {searchString: "Betsy", explanationText: "<img src=https://i.imgur.com/xq2MrVn.gif><br> Treated Very Unfairly"},
-      {searchString: "Pruitt", explanationText: "<img src=https://i.imgur.com/Sn8UGPy.gif><br> Seal-Clubber"},
-      {searchString: "McCain", explanationText: "<img src=https://i.imgur.com/XxS80cQ.gif><br> Dying Bastard"},
-      {searchString: "Cruz", explanationText: "<img src=https://i.imgur.com/9qYJVAo.gif><br> Lyin' Ted"},
-      {searchString: "Sarah", explanationText: "<img src=https://i.imgur.com/vdmPqYp.gif><br> Daddy's Girl"},
-      //Q4
-      {searchString: "Crooked Hillary", explanationText: "<img src=https://i.imgur.com/YPY07Ce.gif><br> Loser"},
-      {searchString: "Ginsburg", explanationText: "<img src=https://i.imgur.com/Usp91c6.gif><br> Mind is Shot"},
-      {searchString: "Collins", explanationText: "<img src=https://i.imgur.com/asKTSKa.gif><br> Birdbrain"},
-      {searchString: "Leo and those bowties", explanationText: "<img src=https://i.imgur.com/3UIssq8.gif><br> Puppetmaster"},
-      {searchString: "Mitch", explanationText: "<img src=https://i.imgur.com/agMQ1mf.gif><br> Dumb Sonofabitch "},
-      {searchString: "McConnell", explanationText: "<img src=https://i.imgur.com/agMQ1mf.gif><br> Dumb Sonofabitch "},
-      {searchString: "Mitch McConnell", explanationText: "<img src=https://i.imgur.com/agMQ1mf.gif><br> Dumb Sonofabitch "},
-      {searchString: "Trump’s Judges", explanationText: "<img src=https://i.imgur.com/x0Tp7Yt.gif><br> My Judges "},
-      {searchString: "conservative catholic freaks", explanationText: "<img src=https://i.imgur.com/O4F3KKV.gif><br> My Judges "},
-      {searchString: "my people", explanationText: "<img src=https://i.imgur.com/yCIEbCu.gif><br> U.S.A."},
-      {searchString: "My people", explanationText: "<img src=https://i.imgur.com/yCIEbCu.gif><br> U.S.A."},
-      {searchString: "our people", explanationText: "<img src=https://i.imgur.com/yCIEbCu.gif><br> U.S.A."},
-      {searchString: "Our people", explanationText: "<img src=https://i.imgur.com/yCIEbCu.gif><br> U.S.A."},
-      //Q5
-      {searchString: "Jeff", explanationText: "<img src=https://i.imgur.com/CIN8hO0.gif><br> Retarded"},
-      {searchString: "Flynn", explanationText: "<img src=https://i.imgur.com/mAV8qeo.gif><br> Wonderful Man"},
-      {searchString: "Nunes", explanationText: "<img src=https://i.imgur.com/iyNoOse.gif><br> My Man in the House"},
-      {searchString: "Cohen", explanationText: "<img src=https://i.imgur.com/8RKgzmE.gif><br> More Breaker than Fixer"},
-      {searchString: "Comey", explanationText: "<img src=https://i.imgur.com/uhYr6WZ.gif><br> Disloyal"},
-      {searchString: "Carl Icahn", explanationText: "<img src=https://i.imgur.com/ODmbIsE.gif><br> Greed is Great"},
-      {searchString: "Ivanka", explanationText: "<img src=https://i.imgur.com/VPpdJJ6.gif><br> A Piece of Ass"},
-      {searchString: "Rudy", explanationText: "<img src=https://i.imgur.com/ZGYIKyG.gif><br> Drinks Too Much"},
-      {searchString: "Stormy", explanationText: "<img src=https://i.imgur.com/aMHfdW8.gif><br> Whore"},
-      //Q6
-      {searchString: "Ryan—what a jerk", explanationText: "<img src=https://i.imgur.com/foBnzZd.gif><br> Lame Duck"},
-      {searchString: "Ryan—good man", explanationText: "<img src=https://i.imgur.com/av7XzAs.gif><br> A Fine Wine"},
-      {searchString: "Rand", explanationText: "<img src=https://i.imgur.com/16a4Yym.gif><br> Pathetic"},
-      {searchString: "Seth Meyers", explanationText: "<img src=https://i.imgur.com/2wYARq6.gif><br> Not Funny"},
-      //Q7
-      {searchString: "Erik's guys", explanationText: "<img src=https://i.imgur.com/xx5vUyu.gif><br> Good guys"},
-      {searchString: "MOAB", explanationText: "<img src=https://i.imgur.com/AvERYM2.gif><br> Biggest Bomb"},
-      {searchString: "Newt", explanationText: "<img src=https://i.imgur.com/kHDWTZQ.gif><br> Knows the Swamp"},
-      {searchString: "Bashar", explanationText: "<img src=https://i.imgur.com/N5L812I.gif><br> A Real Killer"},
-      {searchString: "Zakaria", explanationText: "<img src=https://i.imgur.com/9oloEfW.gif><br> Clinton Shill"},
-      {searchString: "Kelly", explanationText: "<img src=https://i.imgur.com/R1wIewh.gif><br> Lowlife"},
-      {searchString: "McMaster", explanationText: "<img src=https://i.imgur.com/deWRm2y.gif><br> real-toughguy"},
-      {searchString: "McRaven", explanationText: "<img src=https://i.imgur.com/uqGrwvb.gif><br> Wimpy"},
-      //Q8
-      {searchString: "Abbott", explanationText: "<img src=https://i.imgur.com/p3FfWin.gif><br> Wheels"},
-      {searchString: "Cohn", explanationText: "<img src=https://i.imgur.com/3xy2tYq.gif><br> Tariff Man"},
-      {searchString: "Kirstjen", explanationText: "<img src=https://i.imgur.com/pKAqLee.gif><br> a Bush woman"},
-      {searchString: "NRA—Wayne", explanationText: "<img src=https://i.imgur.com/iL9uAzZ.gif><br> Gun Guy"},
-      {searchString: "Whitaker", explanationText: "<img src=https://i.imgur.com/GEqEFzW.gif><br> A Thumb"},
-      {searchString: "Duterte", explanationText: "<img src=https://i.imgur.com/z9lM1Ro.gif><br> The Punisher"},
-      {searchString: "Parkland", explanationText: "<img src=https://i.imgur.com/qog4uZG.gif><br> I hear you"},
-      //Q9
-      {searchString: "my father", explanationText: "<img src=https://i.imgur.com/pTuzMgM.gif><br> Tough but fair"},
-      {searchString: "McAuliffe—terrible Democrat", explanationText: "<img src=https://i.imgur.com/12LRpSw.gif><br> Very weak"},
-      {searchString: "John Lewis", explanationText: "<img src=https://i.imgur.com/5jHAcPr.gif><br> All-talk"},
-      //Q10
-      {searchString: "Porter", explanationText: "<img src=https://i.imgur.com/1XxZd3B.gif><br> Totally Innocent"},
-      {searchString: "Sleepy Todd", explanationText: "<img src=https://i.imgur.com/96jM9v3.gif><br> He's Fucking Sleeping!!!"},
-      {searchString: "Theresa", explanationText: "<img src=https://i.imgur.com/QfNK1PF.gif><br> Begging for a deal"},
-      {searchString: "Wilbur", explanationText: "<img src=https://i.imgur.com/FJTcLtX.gif><br> Old Prune"},
-      {searchString: "Moon", explanationText: "<img src=https://i.imgur.com/CgGHlRv.gif><br> Won't Deal"},
-      {searchString: "Mexican guy", explanationText: "<img src=https://i.imgur.com/REN59Cm.gif><br> Amigo"},
-      {searchString: "Trudeau", explanationText: "<img src=https://i.imgur.com/KZIkDvl.gif><br> Slimeball"},
-      {searchString: "Porter", explanationText: "<img src=https://i.imgur.com/iz7ropU.gif><br> Lap-dog"},
-      //Q11
-      {searchString: "Maggie", explanationText: "<img src=https://i.imgur.com/nHjzm3j.gif><br> My Maggie"},
-      {searchString: "Marco", explanationText: "<img src=https://i.imgur.com/uK6AEGj.gif><br> With me now"},
-      {searchString: "Rex", explanationText: "<img src=https://i.imgur.com/MR6CamL.gif><br> Dumb as a rock"},
-      {searchString: "Tillerson", explanationText: "<img src=https://i.imgur.com/MR6CamL.gif><br> Dumb as a rock"},
-      //Q12
-      {searchString: "Bolton", explanationText: "<img src=https://i.imgur.com/7H9t3Ip.gif><br> Walrus"},
-      {searchString: "Pompeo", explanationText: "<img src=https://i.imgur.com/Dxxltkn.gif><br> Knows his place"},
-      {searchString: "Bossie’s the man", explanationText: "<img src=https://i.imgur.com/gA1FPON.gif><br> Gifted"},
-      {searchString: "and Cory,", explanationText: "<img src=https://i.imgur.com/VzscFRl.gif><br> Womp-Womp"},
-      {searchString: "Herman Cain", explanationText: "<img src=https://i.imgur.com/xpqgn3N.gif><br> True Patriot"},
-      {searchString: "Powell", explanationText: "<img src=https://i.imgur.com/Ocsxhsh.gif><br> Miser"},
-      {searchString: "Merkel", explanationText: "<img src=https://i.imgur.com/7iTJYQx.gif><br> 0.3/10"},
-      {searchString: "Esper", explanationText: "<img src=https://i.imgur.com/cJG7QWr.gif><br> Boyscout"},
-      {searchString: "Mick", explanationText: "<img src=https://i.imgur.com/rUPHYSI.gif><br> Irish Mick"},
-      //Q13 - Conservative
-      {searchString: "Baghdadi—died like a dog", explanationText: "<img src=https://i.imgur.com/5YIo68T.gif><br> Bye-Bye"},
-      {searchString: "Kim Jong Un", explanationText: "<img src=https://i.imgur.com/f8B11U0.gif><br> Big and Tough"},
-      {searchString: "Kim", explanationText: "<img src=https://i.imgur.com/f8B11U0.gif><br> Big and Tough"},
-      //Q13 - Isolationist
-      {searchString: "Haley", explanationText: "<img src=https://i.imgur.com/wkxW77B.gif><br> Nimrada"},
-      {searchString: "ICE", explanationText: "<img src=https://i.imgur.com/GPgNr23.gif><br> Real Heroes"},
-      {searchString: "Taliban", explanationText: "<img src=https://i.imgur.com/ID5LtKg.gif><br> Quite Smart"},
-      //Q14
-      {searchString: "Bezos", explanationText: "<img src=https://i.imgur.com/rzGfPdI.gif><br> Baldy"},
-      //Q15
-      {searchString: "MS-13", explanationText: "<img src=https://i.imgur.com/fQ7ngAg.gif><br> Bad Hombre's"},
-      //Q16 - Stormy
-      {searchString: "Avenatti", explanationText: "<img src=https://i.imgur.com/CdBV0vI.gif><br> Showman"},
-      {searchString: "Schneiderman", explanationText: "<img src=https://i.imgur.com/Ih1TNJA.gif><br> Sick puppy"},
-      //Q16 - Nunes
-      {searchString: "Dorsey", explanationText: "<img src=https://i.imgur.com/PdABNFw.gif><br> Free the bird"},
-      {searchString: "Zuckerberg", explanationText: "<img src=https://i.imgur.com/MDBiEog.gif><br> Friendless"},
-      //Q16 - Mueller
-      {searchString: "Mueller", explanationText: "<img src=https://i.imgur.com/YyovAnZ.gif><br> Fuckin' Amateur"},
-      {searchString: "Dowd", explanationText: "<img src=https://i.imgur.com/hVUyang.gif><br> A doubter"},
-      //Q16 - Rudy
-      {searchString: "Lev", explanationText: "<img src=https://i.imgur.com/GIBrxTv.gif><br> Never-heard-of-him"},
-      //Q17
-      {searchString: "Chuck", explanationText: "<img src=https://i.imgur.com/drYiJsO.gif><br> Cryin' Chuck"},
-      {searchString: "Schumer", explanationText: "<img src=https://i.imgur.com/drYiJsO.gif><br> Cryin' Chuck"},
-      {searchString: "Chuck Schumer", explanationText: "<img src=https://i.imgur.com/drYiJsO.gif><br> Cryin' Chuck"},
-      {searchString: "McCarthy", explanationText: "<img src=https://i.imgur.com/NyKNpa4.gif><br> Weakling"},
-      {searchString: "Pelosi", explanationText: "<img src=https://i.imgur.com/TuokX6p.gif><br> Fragile"},
-      {searchString: "Nancy", explanationText: "<img src=https://i.imgur.com/TuokX6p.gif><br> Fragile"},
-      {searchString: "Rush", explanationText: "<img src=https://i.imgur.com/D1TZv48.gif><br> Heading Out"},
-      {searchString: "Wolf", explanationText: "<img src=https://i.imgur.com/ygFwo0x.gif><br> Lightweight"},
-      //Q18 - Conservative
-      {searchString: "Juan", explanationText: "<img src=https://i.imgur.com/0PfRrzm.gif><br> Leadership Material?"},
-      {searchString: "Lindsay", explanationText: "<img src=https://i.imgur.com/yegUpv8.gif><br> Kissed the ring"},
-      {searchString: "Maduro", explanationText: "<img src=https://i.imgur.com/Pp1PavT.gif><br> Tough Hombre"},
-      {searchString: "Soleimani", explanationText: "<img src=https://i.imgur.com/0tXslJw.gif><br> A dead man"},
-      //Q18 - Isolationist
-      {searchString: "Tucker", explanationText: "<img src=https://i.imgur.com/uExemZr.gif><br> Asskisser"},
-      {searchString: "Zelensky", explanationText: "<img src=https://i.imgur.com/cIqFIzv.gif><br> Needs $$$"},
-      {searchString: "Maddow", explanationText: "<img src=https://i.imgur.com/P1C84DR.gif><br> Liberal Tears"},
-      {searchString: "Kinzinger", explanationText: "<img src=https://i.imgur.com/nFZcMg3.gif><br> Crybaby"},
-      {searchString: "Macron", explanationText: "<img src=https://i.imgur.com/wkiy1GL.gif><br> Big fan of me"},
-      {searchString: "MBS", explanationText: "<img src=https://i.imgur.com/20tuq2s.gif><br> Hatchetman"},
       
-      //Q19
-      {searchString: "Schiff", explanationText: "<img src=https://i.imgur.com/lno4z6R.gif><br> Shifty"},
-      {searchString: "Manchin", explanationText: "<img src=https://i.imgur.com/LAhzcZr.gif><br> Democrat?"},
-      {searchString: "Manchin", explanationText: "<img src=https://i.imgur.com/LAhzcZr.gif><br> Democrat?"},
-      //Q20
-      {searchString: "Peter", explanationText: "<img src=https://i.imgur.com/odMxeRp.gif><br> A Great Patriot"},
-      {searchString: "Mnuchin", explanationText: "<img src=https://i.imgur.com/QlUg8C2.gif><br> Talented Guy"},
-      {searchString: "Woodward", explanationText: "<img src=https://i.imgur.com/EFYgDNb.gif><br> A Smart/Dumb Guy"},
-  
-      //Q22
-      {searchString: "Brad", explanationText: "<img src=https://i.imgur.com/q9dqwTl.gif><br> A Total Lunatic"},
-      {searchString: "Hopey", explanationText: "<img src=https://i.imgur.com/zJVA8H9.gif><br> My Hopey"},
-      {searchString: "Fauci", explanationText: "<img src=https://i.imgur.com/8fstjTB.gif><br> WRONG WRONG WRONG"},
-      {searchString: "President Xi", explanationText: "<img src=https://i.imgur.com/6Xfkz2A.gif><br> Top of the Line"},
-      {searchString: "Mike Tyson", explanationText: "<img src=https://i.imgur.com/OJHlmY4.gif><br> Iron"},
-      {searchString: "Scavino", explanationText: "<img src=https://i.imgur.com/MFDEJz8.gif><br> @realDonaldTrump"},
-  
-
-      //Q24
-      {searchString: "Newsom", explanationText: "<img src=https://i.imgur.com/ZB1eH25.gif><br> Gruesome"},
-
-      //Q27
-      {searchString: "Mark", explanationText: "<img src=https://i.imgur.com/5vV2QPP.gif><br> A Mess"},
-      {searchString: "Stephen", explanationText: "<img src=https://i.imgur.com/dt3PNa0.gif><br> The Gifted One"},
-      {searchString: "Antifa", explanationText: "<img src=https://i.imgur.com/Vxjuy75.gif><br> Fascists"},
-      {searchString: "Mark Milley", explanationText: "<img src=https://i.imgur.com/W7RjGLC.gif><br> Traitor"},
-      {searchString: "Milley", explanationText: "<img src=https://i.imgur.com/W7RjGLC.gif><br> Traitor"},
-  
-      //Q29
-      {searchString: "Bill", explanationText: "<img src=https://i.imgur.com/4yWIecH.gif><br> The New Roy Cohn?"},
-      {searchString: "Pat", explanationText: "<img src=https://i.imgur.com/p1aW8sr.gif><br> Great T.V."},
-      {searchString: "Wray", explanationText: "<img src=https://i.imgur.com/yLGlXIq.gif><br> On the Chopping Block"},
-      {searchString: "Ronna", explanationText: "<img src=https://i.imgur.com/QnFAcyH.gif><br> What's his is mine"},
-      //Q30
-      {searchString: "DeSantis", explanationText: "<img src=https://i.imgur.com/0orgpDI.gif><br> Owes Me Big"},
-  
-      //Joe
-      {searchString: "Hannity", explanationText: "<img src=https://i.imgur.com/vRHtq2N.gif><br> Terrific Supporter"},
-      {searchString: "Jason", explanationText: "<img src=https://i.imgur.com/Rh8KZ6b.gif><br> A Fighter"},
-      {searchString: "his son Hunter", explanationText: "<img src=https://i.imgur.com/6tBKPSS.gif><br> Where is he?"},
-      {searchString: "Don Jr", explanationText: "<img src=https://i.imgur.com/SgXL5bV.gif><br> Not a Killer"},
-  
-      {searchString: "Stan", explanationText: "<img src=https://i.imgur.com/k1aBA4U.gif><br> RIP"},
-      {searchString: "Doocy", explanationText: "<img src=https://i.imgur.com/n3NutkW.gif><br> Total Sap"},
-      {searchString: "Jared", explanationText: "<img src=https://i.imgur.com/j4b16yH.gif><br> The Good Son"},
-      {searchString: "Alexandria Ocasio Cortez", explanationText: "<img src=https://i.imgur.com/Gvm3hzF.gif><br> Evita"},
-      {searchString: "Christie", explanationText: "<img src=https://i.imgur.com/hQiJOAR.giff><br> Too Busy Eating"},
-      {searchString: "Melania", explanationText: "<img src=https://i.imgur.com/V0ScJRj.gif><br> No.3"},
-  
-      //Sanders
-      {searchString: "Squad", explanationText: "<img src=https://i.imgur.com/0ZpKEZv.gif><br> Nasty Women"},
-      {searchString: "Jon Tester", explanationText: "<img src=https://i.imgur.com/s0BrYS7.gif><br> Looks Pregnant"},
-      {searchString: "Levin", explanationText: "<img src=https://i.imgur.com/mnYC83g.gif><br> So Great"},
-      {searchString: "Musk", explanationText: "<img src=https://i.imgur.com/oLbvNUc.gif><br> Total Bitch"},
-      {searchString: "Eric", explanationText: "<img src=https://i.imgur.com/uOevoL8.gif><br> Dumber"},
-  
-      //Warren
-      {searchString: "George Soros", explanationText: "<img src=https://i.imgur.com/3wZllCP.gif><br> Satan"},
-      {searchString: "Soros", explanationText: "<img src=https://i.imgur.com/3wZllCP.gif><br> Satan"},
-      {searchString: "Tim Apple", explanationText: "<img src=https://i.imgur.com/9ZLHATj.gif><br> Tim/Apple"},
-      {searchString: "Kellyanne", explanationText: "<img src=https://i.imgur.com/2hoVx6j.gif><br> Beloved"},
-      {searchString: "Roger Stone", explanationText: "<img src=https://i.imgur.com/EcapEJt.gif><br> A Real Creep"},
-  
-      //Pete
-      {searchString: "Putin", explanationText: "<img src=https://i.imgur.com/u6ch7VZ.gif><br> A Real Leader"},
-      {searchString: "Stallone", explanationText: "<img src=https://i.imgur.com/AImNKHp.gif><br> Stallion"},
-      {searchString: "Alfred E. Neuman", explanationText: "<img src=https://i.imgur.com/KDSskFj.gif><br> Very Funny"},
-      {searchString: "Dr Carson", explanationText: "<img src=https://i.imgur.com/N6HiopN.gif><br> A Sick Puppy"},
-      {searchString: "Psycho Joe", explanationText: "<img src=https://i.imgur.com/k15WspH.gif><br> Off His Meds"},
-      {searchString: "Crenshaw", explanationText: "<img src=https://i.imgur.com/15fYnIQ.gif><br> Sucker"},
-   
-      //Bloomberg
-      {searchString: "Lindell", explanationText: "<img src=https://i.imgur.com/kIJeZ9N.gif><br> A Wacky One"},
-      {searchString: "Murdoch", explanationText: "<img src=https://i.imgur.com/980JJ0h.gif><br> Dumb Shit"},
-      {searchString: "Romney", explanationText: "<img src=https://i.imgur.com/7DjuYqe.gif><br> Big Loser"},
-
-      //Booker
-      {searchString: "Kayleigh", explanationText: "<img src=https://i.imgur.com/wj7K3cJ.gif><br> Good girl"},
-
-      //Klobuchar
-      {searchString: "Schlapp", explanationText: "<img src=https://i.imgur.com/Wp70QnE.gif><br> Fancy"},
-
-      //Beto
-      {searchString: "Netanyahu", explanationText: "<img src=https://i.imgur.com/0MWd4N2.gif><br> Bibi"},
-
-      //Clinton
-      {searchString: "Epstein", explanationText: "<img src=https://i.imgur.com/HieszTj.gif><br> Can of Worms"},
-      {searchString: "Seth and Vince and … Kobe", explanationText: "<img src=https://i.imgur.com/Swtk5iE.gif><br> Who Knows?"},
-      {searchString: "Weinstein", explanationText: "<img src=https://i.imgur.com/keoS3Rw.gif><br> Poor Bastard"},
-
-      //Obama
-      {searchString: "Adelson", explanationText: "<img src=https://i.imgur.com/KPvZsCL.gif><br> Moneybags"},
-      {searchString: "Wright", explanationText: "<img src=https://i.imgur.com/WmfAzDP.gif><br> Big Problem for Michelle"},
-
-      //Yang
-      {searchString: "Osama", explanationText: "<img src=https://i.imgur.com/QEFUpHR.gif><br> Probably the worst ever."},
-      {searchString: "Peter Theil", explanationText: "<img src=https://i.imgur.com/KsbPFMN.gif><br> My special guy"},
-      {searchString: "Tiger Woods", explanationText: "<img src=https://i.imgur.com/Tbl6Ida.gif><br> What a swing!"},
-      {searchString: "Schultz", explanationText: "<img src=https://i.imgur.com/AHMnHKZ.gif><br> Coffee-Boy"},
-      {searchString: "Cuban", explanationText: "<img src=https://i.imgur.com/Gi840wE.gif><br> Con-Artist"},
-
-      //Gabbard
-      {searchString: "Assange", explanationText: "<img src=https://i.imgur.com/ymrl0Qs.gif><br> Major Leaker"},
-      {searchString: "Cheney", explanationText: "<img src=https://i.imgur.com/hKiHLpC.gif><br> Gets it now"},
-      {searchString: "David Duke", explanationText: "<img src=https://i.imgur.com/CfnIqo2.gif><br> Never Been a Fan"},
-      {searchString: "Kellog", explanationText: "<img src=https://i.imgur.com/Q5uBm9c.gif><br> My Kind of General"},
-      {searchString: "Modi", explanationText: "<img src=https://i.imgur.com/cwD1muT.gif><br> Howdy Modi"},
-      {searchString: "Richard Spencer", explanationText: "<img src=https://i.imgur.com/FZCsgaL.gif><br> Weird"},
-      {searchString: "Rogan", explanationText: "<img src=https://i.imgur.com/c9kFgPf.gif><br> Great Ratings I Hear"},
-      {searchString: "Snowden", explanationText: "<img src=https://i.imgur.com/jq9kxbM.gif><br> Ultimate Traitor"},
-
-      //FUBAR
-      {searchString: "Shinzo", explanationText: "<img src=https://i.imgur.com/XDP82YA.gif><br> Weak Swing"},
-
-      //Pence
-      {searchString: "Karen", explanationText: "<img src=https://i.imgur.com/EGB4ofT.gif><br> 𝑀𝑜𝓉𝒽𝑒𝓇"},
-
-      //Harris
-      {searchString: "Kanye and Kim", explanationText: "<img src=https://i.imgur.com/93EWjw6.gif><br> Big Fans of Me"},
-      {searchString: "blackface", explanationText: "<img src=https://i.imgur.com/nPARIEt.gif><br> Not Funny"},
-      {searchString: "McDonalds", explanationText: "<img src=https://i.imgur.com/S50jJuC.gif><br> Great Food"},
-      {searchString: "Michael Jackson", explanationText: "<img src=https://i.imgur.com/xIqRwmS.gif><br> So Much Talent"},
-      {searchString: "Ronny Jackson", explanationText: "<img src=https://i.imgur.com/qwiIu1F.gif><br> Dr Feelgood"},
-      {searchString: "Judge Jeanine", explanationText: "<img src=https://i.imgur.com/76UsAA2.gif><br> Lot's of Love"},
-      {searchString: "Boris", explanationText: "<img src=https://i.imgur.com/H0pHfPW.gif><br> Wonderful Jewish Lawyer"},
-
+      {searchString: "Dick", explanationText: "<img src=https://i.imgur.com/BcP7HEt.gif> Dick Tooltip"},
+      {searchString: "Dick", explanationText: "<img src=https://i.imgur.com/BcP7HEt.gif> Dick Tooltip"},
+      {searchString: "Cruz", explanationText: "<img src=https://i.imgur.com/BcP7HEt.gif> Lying Ted Tooltip"},
+      {searchString: "Sanders", explanationText: "<img src=https://i.imgur.com/7hGvSYN.gif><br> Bernie Tooltip"},
+      {searchString: "Iran", explanationText: "<img src=https://i.imgur.com/WzLU5gg.gif><br> bad"},
     ];
   
   
@@ -845,10 +583,10 @@ input {
   
   
     const song1 = new Song(
-      "The Wanderer",
-      "U2, Johnny Cash",
-      "https://i.imgur.com/VrbiFBZ.jpeg",
-      "https://audio.jukehost.co.uk/k6FcZafOleIhU8IR6hpxUcrrXipWhmme"
+      "Living In The '20s",
+      "Green Day",
+      "https://files.catbox.moe/dploa5.jpg",
+      "https://files.catbox.moe/ipb503.mp3"
     );
     
     const song2 = new Song(
@@ -887,10 +625,10 @@ input {
     );
   
     const song7 = new Song(
-      "Living In The '20s",
-      "Green Day",
-      "https://files.catbox.moe/dploa5.jpg",
-      "https://files.catbox.moe/ipb503.mp3"
+      "Calm Like a Bomb",
+      "Rage Against the Machine",
+      "https://upload.wikimedia.org/wikipedia/en/5/51/RAtM-BattleofLosAngeles.jpeg",
+      "https://files.catbox.moe/1nj6zp.mp3"
     );
 
   
